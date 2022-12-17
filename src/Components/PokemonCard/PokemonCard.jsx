@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { Container } from "./styles";
+import { Container } from "./Styles";
 import pokeball from "../../assets/pokeball.svg";
 import { getTypes } from "../../utils/ReturnPokemonType";
 import { getColors } from "../../utils/ReturnCardColor";
 import axios from "axios";
+
 
 const PokemonCard = ({ pokemonUrl, pokemon }) => {
   const [detailPokemon, setDetailPokemon] = useState({});
