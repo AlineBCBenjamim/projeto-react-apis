@@ -18,7 +18,7 @@ export const Container = styled.div`
     text-align: left;
   }
 
-  h2 {
+  h1 {
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 0em;
@@ -27,6 +27,7 @@ export const Container = styled.div`
   }
   .name {
     text-transform: capitalize;
+    
   }
 
   .container.tipo {
@@ -47,6 +48,8 @@ export const Container = styled.div`
     position: absolute;
     bottom: 20px;
     color: #ffffff;
+    cursor: pointer;
+    text-decoration: underline;
   }
 
   .img-pokemon {
@@ -76,9 +79,14 @@ export const Container = styled.div`
     z-index: 2;
     color: #000;
   }
+  
   .pokeball {
     position: absolute;
     top: 0;
     right: 0;
+  }
+  .botao-excluir{
+    background-color: #FF6262;
+    color: #FFFFFF;
   }
 `;

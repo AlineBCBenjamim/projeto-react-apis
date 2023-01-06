@@ -1,9 +1,15 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-#root {
-    max-width: 1200px;
-    margin: 0 auto; 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
+    
+    }
+    #root {
+    width: 100%;
+    margin: 0 auto;    
+    }
 `;
